@@ -20,8 +20,9 @@ let package = Package(
         ),
         .binaryTarget(
           name: "OpenSSLBinary",
-          url: "https://github.com/ios-poc/OpenSSL/releases/download/0.0.3/OpenSSL.xcframework.zip",
-          checksum: "9806512c9b435d99b6475e957bd25be5606e13acf934dfe0f4329eeaccf45eee"
+          url: "https://github.com/ios-poc/OpenSSL-SPM/releases/tag/0.0.2/OpenSSL.xcframework.zip",
+          checksum: "221eabb03ecfe09c1130a2aa30ade835971192d86be76ff9cf676a781c71c710"
         )
     ]
 )
+//https://github.com/ios-poc/OpenSSL-SPM/releases/tag/0.0.2#:~:text=OpenSSL.xcframework.zip
