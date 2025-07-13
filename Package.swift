@@ -19,8 +19,9 @@ let package = Package(
             dependencies: ["OpenSSLBinary"]
         ),
         .binaryTarget(
-            name: "OpenSSLBinary",
-            path: "OpenSSL.xcframework"
+          name: "OpenSSLBinary",
+          url: "https://github.com/ios-poc/OpenSSL/releases/download/0.0.3/OpenSSL.xcframework.zip",
+          checksum: "9806512c9b435d99b6475e957bd25be5606e13acf934dfe0f4329eeaccf45eee"
         )
     ]
 )
